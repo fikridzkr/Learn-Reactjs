@@ -6,12 +6,17 @@ import StateProps from './StateProps'
 import Variabel from './Variabel'
 import Map from './Map';
 import reportWebVitals from './reportWebVitals';
+import Lifecycle from './Lifecycle';
 
 ReactDOM.render(
   <React.StrictMode>
   <Variabel/>
+  <hr/>
   <StateProps/>
+  <hr/>
   <Map/>
+  <hr/>
+  <Lifecycle/>
   </React.StrictMode>,
   document.getElementById('root')
 );
